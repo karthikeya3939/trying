@@ -1,0 +1,58 @@
+-let us c yashvant
+-mastering c
+
+PFSD
+---------
+
+python
+-----------
+==> python is general purpose, dynamic and high 		level lang.
+==>it supports obj oriented prog approach to develop 	any aplications.
+==>It is not intended to work with particular area, it 	can be used with web, enterprise, 3CAD,etc...
+==>Python File Format:- 	<name>.py
+==> LINKS:-
+						https://www.python.org/downloads
+						https://www.pypi.org
+
+==>History:-
+	python was developed by Guido Van Russom in the year `991
+	it is a language that came from prpg lang called 
+"ABC" which was invented by person called Leo
+	python is a name taken from one of the popular comedy show called ("Monty Python Flying Circus")
+
+==>Why python/Features of Python:	
+	->Open source
+	->easy to use and learm
+	->interpreted language  line by line
+	->obj oriented approach
+	->supports wide range of libraries and frameworks
+	->integrated (it can work with AI,DS,so on...)
+==>Applications/Areas where Python is used:
+	->AI
+	->DS
+	->mac learning
+	->data mining
+	->Comp vison
+	->mobile app
+	->web app
+	->enterp app
+	->desktop app
+	->Software devop
+	->etc...
+==>Applications build using python:
+	Insta web app
+	linkedIn
+	yt
+	netflix
+	Quora
+	Mozilla firefox
+	etc......
+Q) write applications ?
+===> limitations of python
+- very slow in execution (c executes much faster than py )
+- Not Good for GAMIJNG
+- use Libraries
+	
+	
+
+				

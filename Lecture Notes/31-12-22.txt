@@ -1,0 +1,101 @@
+Sequence Type:
+	2)List:
+		- list is a collection of diff data types and diff items( heterogenous)
+		-it is similar to array in declaration , but array is homogenous.
+		-denoted by [ ].
+ex : lis1 = [ 1,"fff", 2.22, 2]
+
+#program to demonstrate List
+#p5.py
+
+list1=[1,"aaa", 2.1, 22]
+print(list1)
+print(list1[2])
+print(list1[0])
+print(list1[0:3])
+print(list1[1:])
+print(list1*4)
+print(list1+list1)
+
+=======================================
+
+3) Tuple :
+		-Tuple is similar to lsit. is a collection of het/diff types of data.
+		- va;ues in tuple cant be change but in list we can.
+		-tuple is immutable.
+		-denoted by ( ).
+
+ex: ("MSWD", 2, "PFSD", 9)
+
+#program to demonstrate Tuple
+#p6.py
+
+tup1=(1,"aaa", 2.1, 22)
+print(tup1)
+print(tup1[2])
+print(tup1[0])
+print(tup1[0:3])
+print(tup1[1:])
+print(tup1*4)
+print(tup1+tup1)
+===========================================
+2) Dictionary :
+		Dict is an unordered set of key value pair item 
+								( key : value )
+
+		denoted by { }.
+
+ex:{ 1:"Hello", 2: 5, 3:"BYe" }
+#program to demonstrate Dictionary
+
+
+dic={
+    1:"hello",
+    2:5,
+    3:"bye"
+}
+
+
+
+print(dic)
+print(dic[1])
+print(dic.keys())
+print(dic.values())
+print(dic.pop(2))
+print(dic)
+print(dic.clear())
+print(dic)
+del dic
+print(dic)
+=====================================
+3) Boolean:
+		-It is a data type which represents a astatement                          ( True or False )
+		-T or 1			F or O
+
+Ex :- 		a=(True==1)
+			print(a)
+
+
+a=(True==1)
+b=a+10
+
+print(b)===>11
+
+
+p8
+===================================
+4) Set :-
+	it is unordered coll of items
+	{ }
+ex
+	set1=set( )==>to rep empty set.
+	set2={ 1,2,3,"sss"}
+	print(set1)  ==>set( )
+	print(set2) ==>{ 1,2,3,"sss"}
+	print(set2.add(9.1)) ==>added at any location.
+	print(set2.remove(9.1)) 
+	print(set2.clear()) 
+print(set2) ====>set( )
+del set1
+del set2
+if print(set1) ==>Throws error

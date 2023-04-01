@@ -1,0 +1,105 @@
+PYTHON EXAMPLE:
+===================
+1)using interactive interpreter command prompt
+cmd=>python
+>>>
+
+2) using acript file
+notepad=>write a code
+		=>save p1.py
+=>cmd=>path=>py p1.py=>output
+
+=============
+python comments:
+==
+comments help others to understand
+1) # single line
+2) """------------
+--------------""" ==>multi line
+======================
+python variables:
+-----------------------------------
+> it is an entity in prog which holds a single value
+and known by its name
+> it is also known as identifiers
+should consist of [A-Z,a-z],[0-9],and _
+>recom to use lowercase
+
+identifier:
+................................
+to name a variable,array ,fun
+identifier rules:
+1.should consist of [A-Z,a-z],[0-9],and _
+2.shud not start with digits
+3. " "      "   be a keyword
+4. "      "    have spaces b/w 2 names
+
+
+?>>>deleting a var:
+	delete a
+===============================================================
+object reference
+
+>in python variables are symbolic names that is ref to an object
+
+EX:
+	c-1:
+		a=25
+	c-2:
+		z=b=c=20
+	c-3:
+		a=1 b=2 c=3
+		a,b,c=1,2,3
+=============
+data types
+=============
+>number:int,float,complex
+>dictionary
+>bool
+>set
+>sequence type:str,list,tuple.
+
+
+==>NUMBER
+1)int 
+	a=1
+	print(a)
+	print(type(a))
+2)float 
+	a=1.2
+	print(a)
+	print(type(a))
+3)complex 
+	a=1+3j
+	print(a)
+	print(type(a))
+
+
+5)sequence type:
+1)string:
+string is a vocllection od charecters
+or
+sequence of charecters
+
+can have alpha,nos,spec charecters
+ex: a,aaaaa,aaaaaaaaaaaa
+
+C lang ==> char='';string=""
+Python==> char='';string=single,double,triple
+
+ex1)s1="pfsd"
+print(s1)
+print(type(s1))
+
+
+exx
+s1="hello"
+s2="welcomw to pfsd class"
+print(s1)
+print(s2)
+print(s1[2])
+print(s2[9])
+print(s2[0:4])
+print(s2[4:])
+print(s1*4)
+print(s1+s2)
